@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <div id="container">
+        <nav>
+            <img src="images/logo.png" alt="logo" class="logo">
+            <h2 id="special2">Hunter Peden</h2>
+            <ul id="toplist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutMe.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="bytejam.html">Byte Jam</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+
+            <h1>Contact Me</h1>
+
+            <h2 id="special">Contact Information</h2>
+            <form action="https://www.w3schools.com/action_page.php">
+                <fieldset>
+                    <label for="suffix" id="suffix">Suffix</label>
+                    <input type="radio" id="mr" name="suffix">
+                    <label for="mr">Mr.</label>
+                    <input type="radio" id="ms" name="suffix">
+                    <label for="ms">Ms.</label>
+                    <input type="radio" id="mrs" name="suffix">
+                    <label for="mrs">Mrs.</label><br>
+                    <label for="fname" id="fnamelabel">First Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+                    <label for="lname" id="lnamelabel">Last Name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+                    <label for="email" id="emailLabel">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email address"><br>
+                    <label for="phone" id="phoneLabel">Phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="999-999-9999"><br>
+                    <label for="prefcontact" id=prefcontactlabel>Preferred Contact:</label>
+                    <select id="prefcontact" name="prefcontact">
+                        <option selected disabled value="1">Please Select</option>
+                        <option value="2">Phone</option>
+                        <option value="3">Text</option>
+                        <option value="4">Email</option>
+                    </select><br>
+                    <label for="message" id="messagelabel">Message</label>
+                    <textarea type="textarea" id="message" name="message">Enter your message here.</textarea><br>
+                    <label id="empty"></label>
+                    <input type="submit" value="Submit" id="submit">
+                </fieldset>
+            </form>
+
+        </div>
+
+        <footer class="flexbox">
+            <div>
+                <ul id="bottomlist">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="AboutMe.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="bytejam.html">Byte Jam</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+            <div>
+                <span id="special">Copyright Hunter Peden</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

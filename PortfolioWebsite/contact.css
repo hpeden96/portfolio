@@ -1,0 +1,87 @@
+form {
+
+    background-color: #EEE;
+    padding: 5px;
+    margin: 5px;
+}
+
+#fname {
+    padding: 5px;
+    margin: 5px;
+    width: 250px;
+}
+
+#lname {
+    padding: 5px;
+    margin: 5px;
+    width: 250px;
+}
+
+#email {
+    padding: 5px;
+    margin: 5px;
+    width: 250px;
+}
+
+#phone {
+    padding: 5px;
+    margin: 5px;
+    width: 250px;
+    
+}
+
+#prefcontact {
+    padding: 5px;
+    margin: 5px;
+    width: 264px;
+}
+#message{
+    width: 259px;
+    margin-top: 10px;
+}
+#suffix {
+    padding-right: 90px;
+}
+#fnamelabel {
+    padding-right: 50px;
+}
+#lnamelabel {
+    padding-right: 51px;
+}
+#emailLabel {
+    padding-right: 82px;
+}
+#phoneLabel {
+    padding-right: 78px;
+}
+#prefcontactlabel {
+    padding-right: 11px;
+}
+#messagelabel {
+    padding-right: 73px;
+    vertical-align: 110%;
+}
+
+#empty {
+    padding-right: 120px;
+}
+
+#mr {
+    margin: 20px 0px;
+}
+
+#ms {
+    margin: 20px 0px;
+}
+
+#mrs {
+    margin: 20px 0px;
+}
+
+#submit {
+    padding: 5px;
+    margin: 10px;
+    background-color: #333;
+    color: #cf7046;
+    font-weight: bold;
+}
