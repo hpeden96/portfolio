@@ -1,0 +1,19 @@
+{
+    "name": "myportfolio",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/hpeden96/portfolio.git",
+    "dependencies": {
+      "esm": "^3.2.25",
+      "express": "^4.17.1",
+      "nodemailer": "^6.4.3",
+      "yes-https": "^1.0.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node -r esm index.js"
+    },
+    "author": "hpeden96 <hpeden96@gmail.com>",
+    "license": "MIT"
+  }
