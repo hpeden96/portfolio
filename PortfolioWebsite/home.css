@@ -31,7 +31,8 @@ header {
 
 #special{
     color: #cf7046;
-    text-align: left;
+    text-align: right;
+    margin-left: 1800px;
 
 }
 
@@ -39,6 +40,12 @@ header {
     color: #cf7046;
     float: left;
     font-weight:bold;
+}
+
+#para{
+    width: 60%;
+    text-align: center;
+    margin: auto;
 }
 
 #special3{
@@ -186,12 +193,16 @@ footer {
     height: 25px;
     color: #FFF;
     font-weight: bold;
+   
 }
 
 .flexbox {
-    display: flex;
+    
     flex-wrap: nowrap;
     justify-content: space-between;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img{
